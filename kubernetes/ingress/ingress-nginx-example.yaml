@@ -7,12 +7,12 @@ metadata:
   name: example-app
   namespace: example-app
 spec:
-  tls:
-  - hosts:
-    - marcel.test
-    secretName: marcel-tls-secret
+#  tls:
+#  - hosts:
+#    - marcel.test
+#    secretName: marcel-tls-secret
   rules:
-  - host: marcel.test
+  - host: oscar.test
     http:
       paths:
       - path: /v1/hello

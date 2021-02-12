@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - marcel.guru
+    - linux-desktop.oscars-k8s.de
     secretName: example-app-tls
   rules:
-  - host: marcel.guru
+  - host: linux-desktop.oscars-k8s.de
     http:
       paths:
       - path: /
